@@ -1,0 +1,446 @@
+{% load static %}
+<!DOCTYPE HTML>
+{% csrf_token %}
+<html>
+	<head>
+		<title>Wazirs Technology</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{%static 'assets/css/main.css' %}" />
+		
+		<!-- Favicons -->
+		<link href="{% static 'LogoPNG.png' %}" rel="icon">
+		<link href="{% static 'LogoPNG.png' %}" rel="apple-touch-icon">
+
+		<script src="https://kit.fontawesome.com/65b643e4a1.js" crossorigin="anonymous"></script>
+	
+		<noscript><link rel="stylesheet" href="{%static 'assets/css/noscript.css'%}" /></noscript>
+	<style>
+		.company-logo{
+			width: 90px;
+			height: 90px;
+			position: relative;
+			top: 17px;
+		}
+		.social-icon{
+    		transition: all .8s ease-in-out; 
+		}
+		.social-icon:hover{
+			transform: scale(1.5);
+		}
+		.twitter:hover{
+			background-color: #1d9bf0 !important;
+			color:#ffffff;
+		}
+		.facebook:hover{
+			background-color: #365899 !important;
+			color:#ffffff;
+		}
+		.insta:hover{
+			background-color:#E1306C !important;
+			color:#ffffff;
+		}
+
+	</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" style="padding-bottom: 38px;">
+						<div class="logo">
+							<span class="icon fa-gem"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1 style="    font-family: Poppins,sans-serif;
+								font-weight: 200;">Welcome To</h1>
+								<h3 style="    font-family: raleway;
+								font-size: 43px;
+								background: #ffffff;
+								color:#062f44;
+								padding-left: 10px;
+								padding-right: 10px;">Wazir’s Technologies</h3>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								{% comment %} <li><a href="#intro">ABOUT WAZIRS</a></li> {% endcomment %}
+								<li><a href="#about">WHO WE ARE</a></li>
+								<li><a href="#work">SERVICES</a></li>
+								<li><a href="#contact">CONTACT</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">ABOUT WAZIRS</h2>
+								<span class="image main"><img src="{%static 'about-us.jpg'%}" alt="" /></span>
+								<p>Welcome to Wazir’s Technologies, where we provide cutting-edge technology solutions to help businesses thrive in the ever-evolving digital landscape. We, at Wazir’s Technologies, are dedicated to delivering the most innovative and effective technology products and services that meet the unique needs of each of our clients.</p>
+								<p>Wazir’s Technologies was founded with the goal of providing businesses with the technology solutions they need to succeed in today's fast-paced digital world. Our founders recognized the importance of staying ahead of the curve and embracing new technologies to remain competitive, and they wanted to help other businesses do the same.</p>
+								<p>Over the years, we, at Wazir’s Technologies, have worked with businesses of all sizes and across various industries. From small startups to large corporations, we have helped our clients achieve their goals by providing them with customized technology solutions that meet their unique needs.</p>
+								<p>Our company is constantly evolving and staying up-to-date with the latest technologies and industry trends. We invest heavily in research and development to ensure that we are at the forefront of innovation. We also regularly attend industry events and conferences to stay informed and connect with other industry professionals.</p>
+								<p>We understand that every business is different and has its own set of challenges. That's why we take a personalized approach to every project we work on. We take the time to get to know our clients and understand their business objectives, so we can develop solutions that are tailored to their specific needs.</p>
+
+							</article>
+
+						<!-- Work -->
+						<article id="work">
+						<section class="wrapper style1 special fade-up">
+						
+								<h2 class="major" style="    font-size: 28px;">SERVICES</h2>
+								<span class="image main"><img style="height: 380px;" src="{%static 'services4.jpg' %}" alt="" /></span>
+							<div class="container" >
+								<header class="major">
+									<h2 class="services-heading" style="	font-size: 30px;">Our Professional Services</h2>
+								</header>
+								<div class="box alt">
+									<div class="row gtr-uniform" style="    display: flex;
+									flex-wrap: wrap;
+									box-sizing: border-box;
+									align-items: stretch;    margin-left: -2.5em;    text-align: center;">
+										<section class="col-4 col-6-medium col-12-xsmall">
+											<span class="icon solid alt major fa fa-rocket" style="color: #ffffff;"></span>	
+											<h3>App Development</h3>
+											<p></p>
+										</section>
+										<section class="col-4 col-6-medium col-12-xsmall">
+											<span class="icon solid alt major fa-duotone fa-code" style="--fa-primary-color: #ffffff; --fa-secondary-color: #000;"></span>
+											<h3>Software Development</h3>
+											<p></p>
+										</section>
+										<section class="col-4 col-6-medium col-12-xsmall">
+											<span class="icon solid alt major fa-solid fa-globe" style="color: #ffffff;"></span>
+											<h3>Website Development</h3>
+											<p></p>
+										</section>
+										<section class="col-4 col-6-medium col-12-xsmall">
+											<span class="icon solid alt major fa fa-area-chart" style="color: #ffffff;"></span>
+											<h3>Customised Software for Algo-Trading Platform</h3>
+											<p></p>
+										</section>
+										<section class="col-4 col-6-medium col-12-xsmall">
+											<span class="icon solid alt major fa-solid fa-list-check" style="color: #ffffff;"></span>
+											<h3>Risk Management Softwares</h3>
+											<p></p>
+										</section>
+										<section class="col-4 col-6-medium col-12-xsmall">
+											<span class="icon solid alt major fas fa-chart-line" style="color: #ffffff;"></span>
+											<h3>Broking Softwares</h3>
+											<p></p>
+										</section>
+								</article>
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">WHO WE ARE</h2>
+								<span class="image main" ><img style="height: 380px;" src="{%static 'about-us-min.jpg'%}" alt="" /></span>
+								<p>Welcome to Wazir’s Technologies, where we provide cutting-edge technology solutions to help businesses thrive in the ever-evolving digital landscape. We, at Wazir’s Technologies, are dedicated to delivering the most innovative and effective technology products and services that meet the unique needs of each of our clients.</p>
+								<p>Wazir’s Technologies was founded with the goal of providing businesses with the technology solutions they need to succeed in today's fast-paced digital world. Our founders recognized the importance of staying ahead of the curve and embracing new technologies to remain competitive, and they wanted to help other businesses do the same.</p>
+								<p>Over the years, we, at Wazir’s Technologies, have worked with businesses of all sizes and across various industries. From small startups to large corporations, we have helped our clients achieve their goals by providing them with customized technology solutions that meet their unique needs.</p>
+								<p>Our company is constantly evolving and staying up-to-date with the latest technologies and industry trends. We invest heavily in research and development to ensure that we are at the forefront of innovation. We also regularly attend industry events and conferences to stay informed and connect with other industry professionals.</p>
+								<p>We understand that every business is different and has its own set of challenges. That's why we take a personalized approach to every project we work on. We take the time to get to know our clients and understand their business objectives, so we can develop solutions that are tailored to their specific needs.</p>
+								<p>In conclusion, we are a technology solutions provider that is dedicated to helping businesses succeed in the digital age. Our team of experts is passionate about technology and committed to delivering customized solutions that meet the unique needs of our clients. We are always striving to stay ahead of the curve and provide our clients with the most innovative and effective technology products and services. Contact us today to learn more about how we can help your business achieve its goals through the power of technology.</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact" >
+								<h2 class="major">CONTACT</h2>
+								<form method="post" action="/">
+									<div class="fields" style="caret-color: #ffffff;">
+										<div class="field half">
+											{% comment %} <label for="name">Name</label>{% endcomment %}
+											<input type="text" name="name" placeholder="Full Name" id="name" /> 
+										</div>
+										<div class="field half">
+											{% comment %} <label for="email">Email</label>{% endcomment %}
+											<input type="text" name="email" placeholder="enter.your@email.here" id="email" /> 
+										</div>
+									<div class="field">
+											{% comment %} <label for="message">Message</label> {% endcomment %}
+											<textarea name="message" placeholder="Please Enter Your Concern." id="message" rows="4"></textarea>
+										</div> 
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Click Here To Send" class="primary" /></li>
+										{% comment %} <li><input type="reset" value="Reset" /></li> {% endcomment %}
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="#" class="icon social-icon brands twitter fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon social-icon brands facebook fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon social-icon brands insta fa-instagram"><span class="label">Instagram</span></a></li>
+									{% comment %} <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li> {% endcomment %}
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							{% comment %} <article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section> {% endcomment %}
+
+								{% comment %} <section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article> {% endcomment %}
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; 2017 <a href="https://wazirs.in/" target=_blank style="font-weight: bold;">Wazirs</a>.All Rights Reserved.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+			<script src="{% static 'assets/js/browser.min.js' %}"></script>
+			<script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'assets/js/util.js' %}"></script>
+			<script src="{% static 'assets/js/main.js' %}"></script>
+
+	</body>
+</html>
